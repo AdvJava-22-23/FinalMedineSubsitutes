@@ -11,18 +11,22 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class solutions extends AppCompatActivity {
+public class solutions extends AppCompatActivity
+{
 
     private Button nextBtn2;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
 
         nextBtn2 = (Button) findViewById(R.id.button3);
-        nextBtn2.setOnClickListener(new View.OnClickListener() {
+        nextBtn2.setOnClickListener(new View.OnClickListener()
+        {
             @Override
-            public void onClick(View view) {
+            public void onClick(View view)
+            {
                 nextpage3();
             }
         });
