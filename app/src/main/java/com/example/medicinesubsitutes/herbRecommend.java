@@ -26,16 +26,14 @@ class HerbRecommend extends AppCompatActivity implements View.OnClickListener
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         questionTextView = findViewById(R.id.questionTextView);
         yesButton = findViewById(R.id.yesButton);
         noButton = findViewById(R.id.noButton);
         recommendedHerbTextView = findViewById(R.id.recommendedHerbTextView);
-
         yesButton.setOnClickListener((View.OnClickListener) this);
         noButton.setOnClickListener((View.OnClickListener) this);
 
-        // Display the first question
+        // Display the first question and wats being queued later so multiple questions
         showQuestion(currentQuestionIndex);
     }
 
