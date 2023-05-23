@@ -62,10 +62,10 @@ class HerbRecommend extends AppCompatActivity implements View.OnClickListener
     {
         if (isYes)
         {
-            // Handle "Yes" response
+            // "Yes" response
         } else
         {
-            // Handle "No" response
+            // "No" response
         }
 
         currentQuestionIndex++;
@@ -84,10 +84,11 @@ class HerbRecommend extends AppCompatActivity implements View.OnClickListener
     private String calculateRecommendedHerb()
     {
 
-        return recommendations[0]; // Return the first recommendation as a placeholder
+        return recommendations[0]; // Return the first recommendation holder
     }
 
-    private void displayRecommendedHerb(String herb) {
+    private void displayRecommendedHerb(String herb)
+    {
         recommendedHerbTextView.setText("Recommended Herb: " + herb);
         recommendedHerbTextView.setVisibility(View.VISIBLE);
     }
