@@ -111,7 +111,7 @@
         android:backgroundTint="#000000"
         android:fontFamily="sans-serif-black"
         android:padding="9dp"
-        android:text="Home Page"
+        android:text="Next Page"
         android:textSize="15sp" />
 
 
