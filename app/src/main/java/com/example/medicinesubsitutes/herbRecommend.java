@@ -79,7 +79,7 @@ class HerbRecommend extends AppCompatActivity implements View.OnClickListener
         }
     }
 
-    private String calculateRecommendedHerb
+    private String calculateRecommendedHerb()
     {
 
         return recommendations[0]; // Return the first recommendation holder
